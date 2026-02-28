@@ -76,4 +76,20 @@ public class ObjectFactory {
         return new DepositResponse();
     }
 
+    /**
+     * Create an instance of {@link WithdrawRequest }
+     * 
+     */
+    public WithdrawRequest createWithdrawRequest() {
+        return new WithdrawRequest();
+    }
+
+    /**
+     * Create an instance of {@link WithdrawResponse }
+     * 
+     */
+    public WithdrawResponse createWithdrawResponse() {
+        return new WithdrawResponse();
+    }
+
 }
